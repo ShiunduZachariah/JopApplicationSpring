@@ -2,15 +2,15 @@ package com.jobapplication.jobapplication.job;
 
 public class job {
 
-    private long ID;
+    private long id;
     private String title;
     private String description;
     private String minSalary;
     private String maxSalary;
     private String location;
 
-    public job(long ID, String title, String description, String minSalary, String maxSalary, String location) {
-        this.ID = ID;
+    public job(long id, String title, String description, String minSalary, String maxSalary, String location) {
+        this.id = id;
         this.title = title;
         this.description = description;
         this.maxSalary = maxSalary;
@@ -18,12 +18,12 @@ public class job {
         this.location = location;
     }
 
-    public long getID() {
-        return ID;
+    public long getid() {
+        return id;
     }
 
-    public void setID(long ID) {
-        this.ID = ID;
+    public void setid(long id) {
+        this.id = id;
     }
 
     public String gettitle() {
